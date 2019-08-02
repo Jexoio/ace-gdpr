@@ -1,5 +1,5 @@
 {
-  "name": "ace-gdpr",
+  "name": "@jexo/ace-gdpr",
   "version": "1.0.3",
   "description": "GDPR compliance helper for atlas-connect-express applications",
   "main": "./lib/index.js",
@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mtmendonca/ace-gdpr.git"
+    "url": "git+https://github.com/Jexoio/ace-gdpr.git"
   },
   "keywords": [
     "atlassian-connect-express",
@@ -34,12 +34,12 @@
     "node",
     "jexo"
   ],
-  "author": "Marcelo Mendonca <mendonca2709@gmail.com>",
+  "author": "Biro Florin <biro.florin@jexo.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mtmendonca/ace-gdpr/issues"
+    "url": "https://github.com/Jexoio/ace-gdpr/issues"
   },
-  "homepage": "https://github.com/mtmendonca/ace-gdpr",
+  "homepage": "https://github.com/Jexoio/ace-gdpr",
   "dependencies": {
     "atlassian-jwt": "^1.0.2",
     "date-fns": "^1.30.1",
@@ -78,5 +78,9 @@
     "sequelize": "^5.8.6",
     "sinon": "^7.3.2",
     "sinon-chai": "^3.3.0"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "tests"
   }
 }
