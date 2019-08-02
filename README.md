@@ -1,6 +1,6 @@
-# ace-gdpr
+# @jexo/ace-gdpr
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/mtmendonca/ace-gdpr.svg?branch=master)](https://travis-ci.org/mtmendonca/ace-gdpr)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 **Get GDPR updates for your [Atlas-Connect-Express](https://bitbucket.org/atlassian/atlassian-connect-express/src) application**
 
@@ -9,7 +9,7 @@ This package will assist you in complying with Atlassian's GDPR requirements des
 # Installation
 Using npm:
 ```sh
-$ npm install --save ace-gdpr
+$ npm install --save @jexo/ace-gdpr
 ```
 # Pre-requisites
 - A postgres database.
@@ -29,7 +29,7 @@ PGDATABASE='database name'
 In your atlas-connect-express application
 
 ```js
-const getUpdates = require('ace-gdpr').default;
+const getUpdates = require('@jexo/ace-gdpr').default;
 
 // map your users table name and column names to the config object
 const config = {
