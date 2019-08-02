@@ -1,6 +1,6 @@
 {
   "name": "@jexo/ace-gdpr",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "GDPR compliance helper for atlas-connect-express applications",
   "main": "./lib/index.js",
   "scripts": {
